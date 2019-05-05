@@ -1,14 +1,7 @@
 ---
+layout: base
+title: Andrew Lanin
 ---
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Andrew Lanin</title>
-    <style type="text/css">{% include normalize.css %}</style>
-</head>
-<body>
-    {% for post in site.data.blog %}
-        <a href="/blog/{{post.token}}/">{{post.title}}</a><br/>
-    {% endfor %}
-</body>
-</html>
+{% for post in site.data.blog %}
+    <a href="/blog/{{post.token}}/">{{post.title}}</a><br/>
+{% endfor %}

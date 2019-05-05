@@ -1,0 +1,32 @@
+body {
+    margin: 10px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-elem {
+    margin-left: 10px;
+}
+
+.avatar {
+    width: 50px;
+    border-radius: 50%;
+}
+
+footer {
+    border-top: 1px grey solid;
+    margin-top: 50px;
+    padding-top: 10px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer-elem {
+    margin-right: 10px;
+}

@@ -5,8 +5,18 @@
 <head>
     <title>{{ page.title }}</title>
     <style type="text/css">{% include normalize.css %}</style>
+    <style type="text/css">{% include base.css %}</style>
 </head>
 <body>
+    <nav>
+        <img class="avatar" src="/assets/avatar.png" />
+        <span class="nav-elem"><strong>Andrew Lanin</strong></span>
+    </nav>
     {{ content }}
+    <footer>
+        <span class="footer-elem">
+            <a href="mailto:alanin@fastmail.com">Email</a>
+        </span>
+    </footer>
 </body>
 </html>

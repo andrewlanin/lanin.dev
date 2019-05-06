@@ -9,13 +9,22 @@ nav {
     align-items: center;
 }
 
-.nav-elem {
-    margin-left: 10px;
+.nav-name {
+    margin-bottom: 5px;
+}
+
+.nav-links {
+    font-size: 120%;
+}
+
+.nav-link {
+    margin-right: 10px;
 }
 
 .avatar {
     width: 50px;
     border-radius: 50%;
+    margin-right: 10px;
 }
 
 footer {

@@ -9,20 +9,20 @@ nav {
     align-items: center;
 }
 
-.nav-avatar {
+nav .avatar {
     width: 50px;
     border-radius: 50%;
     margin-right: 10px;
 }
 
-.nav-name {
+nav .name {
     margin-bottom: 5px;
 }
 
-.nav-links {
+nav .links {
     font-size: 120%;
 }
 
-.nav-link {
+nav .link {
     margin-right: 10px;
 }

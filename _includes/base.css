@@ -16,6 +16,8 @@ nav {
     display: flex;
     flex-direction: row;
     align-items: center;
+
+    font-size: 120%;
 }
 
 nav .avatar {
@@ -24,15 +26,12 @@ nav .avatar {
     margin-right: 10px;
 }
 
-nav .name {
-    margin-bottom: 5px;
-    letter-spacing: 0.05em;
-}
-
 nav .links {
-    font-size: 120%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 nav .link {
-    margin-right: 10px;
+    margin-right: 15px;
 }

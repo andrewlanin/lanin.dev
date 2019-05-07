@@ -2,11 +2,3 @@
 layout: base
 title: Andrew Lanin
 ---
-<p>
-    One paragraph of text about myself.
-</p>
-
-<h1>Recent posts</h1>
-{% for post in site.data.blog %}
-    <a href="/blog/{{post.token}}/">{{post.title}}</a><br/>
-{% endfor %}

@@ -5,8 +5,8 @@ html {
 
 body {
     margin: 0 auto;
-    padding-top: 10px;
-    width: 840px;
+    padding: 10px;
+    max-width: 840px;
 
     font-family: body, sans-serif;
     font-size: 18px;

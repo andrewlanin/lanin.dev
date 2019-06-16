@@ -35,3 +35,10 @@ nav .links {
 nav .link {
     margin-right: 15px;
 }
+
+footer {
+  padding-top: 20px;
+  border-top: solid 1px lightgray;
+  color: gray;
+  text-align: center;
+}

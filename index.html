@@ -3,16 +3,21 @@ layout: base
 title: Andrew Lanin
 ---
 
+<style type="text/css">{% include index.css %}</style>
+
 <p>
-    Hey! I'm Andrew, a software developer interested in programming languages, development tools, engineering efficiency and programms correctness.
+    Hey! I'm Andrew, software developer interested in programming languages, development tools, engineering efficiency and programms correctness.
 </p>
 
-<h2>Projects</h2>
-<a href="#">Bla-bla-bla</a><br />
-<a href="#">Bla-bla-bla</a><br />
-<a href="#">Bla-bla-bla</a><br />
+{% for post in site.posts %}
+<div class="post-preview">
+  <div class="title">
+    <a class="title-link" href="{{ post.url }}">
+      <h3>{{ post.title }}</h3>
+    </a>
+  </div>
 
-<h2>Recent Posts</h2>
-<a href="#">Bla-bla-bla</a><br />
-<a href="#">Bla-bla-bla</a><br />
-<a href="#">Bla-bla-bla</a><br />
+  <p>{{ post.excerpt }}</p>
+  <p><a href="{{ post.url }}">Read more</a></p>
+</div>
+{% endfor %}

@@ -1,0 +1,13 @@
+.post-preview {
+  border-top: dashed gray 1px;
+  margin-bottom: 30px;
+}
+
+.post-preview .title {
+  /* box-shadow: 5px 5px cyan; */
+}
+
+.post-preview .title-link {
+  color: inherit;
+  text-decoration: none;
+}

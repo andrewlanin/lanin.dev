@@ -18,7 +18,8 @@
 }
 
 .post-preview .tag {
-  background: lightgray;
+  color: white;
+  background: #4bafc6;
   padding: 3px;
   border-radius: 5px;
   font-family: monospace;

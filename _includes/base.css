@@ -1,7 +1,6 @@
 html {
   color: #474747;
-  background: url("/assets/background.png");
-  background-repeat: repeat;
+  background: #4bafc6;
 }
 
 body {
@@ -48,5 +47,5 @@ footer {
 }
 
 a {
-  color: #4bafc6;
+  /* color: #4bafc6; */
 }

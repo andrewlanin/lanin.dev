@@ -19,4 +19,4 @@ strong::before, strong::after { content: '**'; color: gray; }
 
 a { text-decoration: none; }
 a::before { content: '['; color: gray; }
-a::after { content: '](' attr(href) ')'; color: gray; }
+a::after { content: ']'; color: gray; }

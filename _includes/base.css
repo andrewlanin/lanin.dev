@@ -25,16 +25,20 @@ nav .avatar {
 
 nav .links {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
 }
 
 nav .link {
-  margin-right: 15px;
-  text-decoration: none;
+  display: block;
+  /* margin-right: 15px; */
 }
 
 footer {
   padding-top: 30px;
   color: gray;
+}
+
+footer a {
+  display: block;
 }

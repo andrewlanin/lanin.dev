@@ -12,18 +12,21 @@
 </head>
 <body>
     <nav>
-      <a href="/"><img class="avatar" src="/assets/avatar.jpg" /></a>
+      <img class="avatar" src="/assets/avatar.jpg" />
       <div class="links">
-            <a class="link" href="https://lanin.dev/feed.xml"><i class="fas fa-rss"></i></a>
-            <a class="link" href="mailto:andrew@lanin.dev"><i class="fas fa-envelope"></i></a>
-            <a class="link" href="https://twitter.com/lanindev"><i class="fab fa-twitter"></i></a>
-            <a class="link" href="https://github.com/lanindev"><i class="fab fa-github"></i></a>
-            <a class="link" href="https://stackoverflow.com/users/10220529/andrew-lanin"><i class="fab fa-stack-overflow"></i></a>
-        </div>
+        <a class="link" href="/">Home</a>
+        <a class="link" href="/blog">Blog</a>
+        <a class="link" href="/projects">Projects</a>
+        <a class="link" href="#footer">Contacts</a>
+      </div>
     </nav>
     {{ content }}
-    <footer>
+    <footer id="footer">
       © Andrew Lanin, 2019
+      <a class="link" href="/feed.xml"><i class="fas fa-rss"></i></a>
+      <a class="link" href="mailto:andrew@lanin.dev"><i class="fas fa-envelope"></i></a>
+      <a class="link" href="https://twitter.com/lanindev"><i class="fab fa-twitter"></i></a>
+      <a class="link" href="https://github.com/lanindev"><i class="fab fa-github"></i></a>
     </footer>
 </body>
 </html>

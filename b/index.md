@@ -11,13 +11,5 @@ Hey! I'm Andrew Lanin, software developer interested in programming languages, d
 ## Recent posts
 
 {% for post in site.posts %}
-
-### {{ post.title }}
-
-*{{ post.date | date: '%Y-%m-%d' }}*
-
-{{ post.excerpt }}
-
-[Read more...]({{ post.url }})
-
+{{ post.date | date: '%Y-%m-%d' }} [{{ post.title }}]({{ post.url }})
 {% endfor %}

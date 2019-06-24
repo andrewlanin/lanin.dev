@@ -17,5 +17,6 @@ h6 { color: #a1a0a7; }
 em::before, em::after { content: '*'; color: gray; }
 strong::before, strong::after { content: '**'; color: gray; }
 
-a[id]::before { content: '['; }
-a[id]::after { content: '](' attr(href) ')'; }
+a { text-decoration: none; }
+a::before { content: '['; color: gray; }
+a::after { content: '](' attr(href) ')'; color: gray; }

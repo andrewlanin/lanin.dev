@@ -5,7 +5,7 @@ title: Andrew Lanin
 
 # Andrew's Website
 
-Hey! I'm Andrew Lanin, software developer interested in programming languages, development tools, engineering productivity and programms correctness.
+Hey! I'm Andrew Lanin, software developer interested in machine languages, development tools, engineering productivity and programms correctness.
 
 ## Recent posts
 

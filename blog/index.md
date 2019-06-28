@@ -5,6 +5,8 @@ title: Andrew Lanin
 
 # Andrew's Blog
 
+This blog is an attempt to bring some order to thoughts and explore own dissatisfaction with state of things in the industry of software development.
+
 ## All posts
 
 {% for post in site.posts %}

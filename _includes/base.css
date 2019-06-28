@@ -6,14 +6,13 @@ body {
   margin: 0 auto;
   padding: 10px;
   max-width: 840px;
-  font-family: monospace;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 nav {
   display: flex;
   flex-direction: row;
   align-items: center;
-  font-size: 120%;
 }
 
 nav .avatar {

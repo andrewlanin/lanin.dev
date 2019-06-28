@@ -3,7 +3,7 @@ layout: base
 title: Andrew Lanin
 ---
 
-# Andrew's Blog
+# Andrew's blog
 
 This blog is an attempt to bring some order to thoughts and explore own dissatisfaction with state of things in the industry of software development.
 

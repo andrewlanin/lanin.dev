@@ -13,23 +13,10 @@ body {
 nav {
   display: flex;
   flex-direction: row;
-  align-items: center;
-}
-
-nav .avatar {
-  width: 50px;
-  margin-right: 15px;
-  border: solid gray 1px;
-  border-radius: 50%;
-}
-
-nav .links {
-  display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
 }
 
 footer {
-  padding-top: 30px;
+  padding-top: 50px;
   color: gray;
 }

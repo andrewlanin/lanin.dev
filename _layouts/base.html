@@ -2,28 +2,25 @@
 ---
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>{{ page.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <style type="text/css">{% include normalize.css %}</style>
     <style type="text/css">{% include markdown.css %}</style>
     <style type="text/css">{% include base.css %}</style>
-</head>
-<body>
+  </head>
+  <body>
     <nav>
-      <img class="avatar" src="/assets/avatar.jpg" />
-      <div class="links">
-        <a href="/">Home</a>
-        <a href="/blog.html">Blog</a>
-        <a href="/feed.xml">Feed</i></a>
-        <a href="mailto:andrew@lanin.dev">Email</a>
-        <a href="https://twitter.com/lanindev">Twitter</a>
-        <a href="https://github.com/lanindev">Github</a>
-      </div>
+      <a href="/">Home</a>
+      <a href="/blog.html">Blog</a>
+      <a href="/feed.xml">Feed</i></a>
+      <a href="mailto:andrew@lanin.dev">Email</a>
+      <a href="https://twitter.com/lanindev">Twitter</a>
+      <a href="https://github.com/lanindev">Github</a>
     </nav>
     {{ content }}
     <footer id="footer">
       © Andrew Lanin, 2019. <a href="https://github.com/lanindev/lanin.dev">Website sources</a>.
     </footer>
-</body>
+  </body>
 </html>

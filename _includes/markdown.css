@@ -1,22 +1,16 @@
 h1,h2,h3,h4,h5,h6 {
-  font-size: 100%;
+  font-size: 110%;
   margin-top: 30px;
-  font-weight: bold;
+  font-weight: normal;
+  color: black;
 }
 
-h1::before { content: '# '; }
-h2::before { content: '## '; }
-h3::before { content: '### '; }
-h4::before { content: '#### '; }
-h5::before { content: '##### '; }
-h6::before { content: '###### '; }
-
-/* h1 { color: #0084bc; } */
-/* h2 { color: #8a4614; } */
-/* h3 { color: #a724a4; } */
-/* h4 { color: #c18405; } */
-/* h2 { color: #018a8b; } */
-/* h6 { color: #a1a0a7; } */
+h1::before { color: gray; content: '# '; }
+h2::before { color: gray; content: '## '; }
+h3::before { color: gray; content: '### '; }
+h4::before { color: gray; content: '#### '; }
+h5::before { color: gray; content: '##### '; }
+h6::before { color: gray; content: '###### '; }
 
 em::before, em::after { content: '*'; color: gray; }
 strong::before, strong::after { content: '**'; color: gray; }

@@ -3,7 +3,7 @@ layout: base
 title: Andrew Lanin
 ---
 
-# Andrew's Website
+# Andrew's website
 
 Hey! I'm Andrew Lanin, software developer interested in machine languages, development tools, engineering productivity and programms correctness.
 

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: The Effective Engineer, Edmond Lau
-tags: [book]
 ---
 
 # The Effective Engineer, Edmond Lau

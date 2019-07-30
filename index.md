@@ -1,14 +1,13 @@
 ---
 layout: base
-title: Andrew Lanin
+title: Home
 ---
 
-# Andrew's website
+# Welcome
+I'm Andrew Lanin (rus. Андрей Ланин), software engineer from Russia, interested in machine languages, development tools, engineering productivity and programms correctness.
 
-Hey! I'm Andrew Lanin, software developer interested in machine languages, development tools, engineering productivity and programms correctness.
+## My Blog
 
-## Recent posts
-
-{% for post in site.posts limit: 5 %}
-{{ post.date | date: '%Y-%m-%d' }} [{{ post.title }}]({{ post.url }}) {% for tag in post.tags %}*{{ tag }}* {% endfor %}
+{% for post in site.posts %}
+{{ post.date | date: '%Y-%m-%d' }} [{{ post.title }}]({{ post.url }})
 {% endfor %}

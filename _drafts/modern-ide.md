@@ -1,12 +1,9 @@
 ---
 layout: post
 title: Modern IDE concept
-tags: ide
 ---
 
 # Modern IDE concept
-
-*{{ page.date | date: '%Y-%m-%d' }}*
 
 If have written any code during past 40 years, chances are you did it in an environment that looks somewhat like this:
 

@@ -39,7 +39,7 @@ a { text-decoration: none; }
 a::before { content: '['; color: gray; }
 a::after { content: ']'; color: gray; }
 
-p {
+article p {
   margin-top: 30px;
 }
 

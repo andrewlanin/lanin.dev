@@ -4,7 +4,7 @@ title: Home
 ---
 
 # Welcome
-I'm Andrew Lanin (rus. Андрей Ланин), software engineer from Russia, interested in machine languages, development tools, engineering productivity and programms correctness.
+I'm Andrew Lanin (rus. Андрей Ланин), software engineer from Russia, interested in development tools, machine languages, programmers' productivity techniques, entrepreneurship, learning meaningful stuff and teaching others.
 
 ## Blog
 {% for post in site.categories["blog"] %}

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Effective Engineer, Edmond Lau
+categories: [journal]
 ---
 
 # The Effective Engineer, Edmond Lau

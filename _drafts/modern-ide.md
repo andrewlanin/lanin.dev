@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Modern IDE concept
+categories: [blog]
 ---
 
 # Modern IDE concept

@@ -45,19 +45,3 @@ blockquote {
   padding-left: 20px;
   border-left: 3px solid gray;
 }
-
-.showcase {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.showcase-entry {
-  width: 160px;
-  min-height: 300px;
-  padding: 5px;
-  margin-bottom: 10px;
-}
-
-.showcase-entry img {
-  width: 160px;
-}

@@ -1,11 +1,11 @@
 ---
 layout: post
-categories: [journal]
-title: "Rework — Jason Fried, DHH"
+categories: [bookshelf]
+title: "Rework — J. Fried"
 cover: "/assets/journal/rework/cover.jpg"
 ---
 # {{ page.title }}
 
-![Book cover]({{ page.cover }})
+![Book cover](/assets/journal/rework/cover_photo.jpg)
 
 ## Quotes

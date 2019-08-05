@@ -1,11 +1,11 @@
 ---
 layout: post
-categories: [journal]
-title: "Remote — Jason Fried, DHH"
+categories: [bookshelf]
+title: "Remote — J. Fried"
 cover: "/assets/journal/remote/cover.jpg"
 ---
 # {{ page.title }}
 
-![Book cover]({{ page.cover }})
+![Book cover](/assets/journal/remote/cover_photo.jpg)
 
 ## Quotes

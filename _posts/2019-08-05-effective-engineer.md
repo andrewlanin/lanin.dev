@@ -1,13 +1,13 @@
 ---
 layout: post
-categories: [journal]
-title: "The Effective Engineer — Edmond Lau"
+categories: [bookshelf]
+title: "The Effective Engineer — E. Lau"
 cover: "/assets/journal/effective-engineer/cover.jpg"
 ---
 
 # {{ page.title }}
 
-![Book cover]({{ page.cover }})
+![Book cover](/assets/journal/effective-engineer/cover_photo.jpg)
 
 ## Quotes
 

@@ -14,12 +14,6 @@ nav {
   flex-wrap: wrap;
 }
 
-footer {
-  margin-top: 50px;
-  margin-bottom: 10px;
-  color: gray;
-}
-
 h1,h2,h3,h4,h5,h6 {
   font-size: 130%;
   margin-top: 30px;
@@ -41,6 +35,13 @@ a::after { content: ']'; color: gray; }
 
 article p {
   margin-top: 30px;
+}
+
+blockquote {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 20px;
+  border-left: 3px solid gray;
 }
 
 #poly {

@@ -32,6 +32,8 @@ strong::before, strong::after { content: '**'; color: gray; }
 a { text-decoration: none; }
 a::before { content: '['; color: gray; }
 a::after { content: ']'; color: gray; }
+a.raw::before { content: ''; }
+a.raw::after { content: ''; }
 
 article p {
   margin-top: 30px;
@@ -44,11 +46,18 @@ blockquote {
   border-left: 3px solid gray;
 }
 
-#poly {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 300px;
-  z-index: -1;
+.showcase {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.showcase-entry {
+  width: 160px;
+  min-height: 300px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.showcase-entry img {
+  width: 160px;
 }

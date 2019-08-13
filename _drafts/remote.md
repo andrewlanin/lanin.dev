@@ -2,11 +2,11 @@
 layout: post
 categories: [bookshelf]
 title: "Remote — J. Fried"
-cover: "/assets/journal/remote/cover.jpg"
+cover: "/assets/remote/cover.jpg"
 ---
 # {{ page.title }}
 
-![Book cover](/assets/journal/remote/cover_photo.jpg)
+![Book cover](/assets/remote/cover_photo.jpg)
 
 ## Quotes
 

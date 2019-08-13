@@ -5,9 +5,9 @@ title: Home
 <h1>Welcome</h1>
 <p>I'm Andrew Lanin (rus. Андрей Ланин), software engineer from Russia, interested in development tools, machine languages, programmers' productivity techniques, entrepreneurship, learning meaningful stuff and teaching others.</p>
 
-<h1>Bookshelf</h1>
+<h2>Bookshelf</h2>
 {% for post in site.categories["bookshelf"] %}
-<div style="display: flex; align-items: center; margin-bottom: 15px;">
+<div style="display: flex; align-items: center;">
   <a class="raw" href="{{ post.url }}"><img src="{{post.cover}}" width="60" /></a>
   <div style="margin-left: 10px">
     <div>{{ post.date | date: '%Y-%m-%d' }}</div>

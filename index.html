@@ -8,7 +8,7 @@ title: Home
 <h2>Bookshelf</h2>
 {% for post in site.categories["bookshelf"] %}
 <div style="display: flex; align-items: center;">
-  <a class="raw" href="{{ post.url }}"><img src="{{post.cover}}" width="60" /></a>
+  <a href="{{ post.url }}"><img src="{{post.cover}}" width="60" /></a>
   <div style="margin-left: 10px">
     <div>{{ post.date | date: '%Y-%m-%d' }}</div>
     <div><a href="{{ post.url }}">{{ post.title }}</a></div>

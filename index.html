@@ -3,9 +3,11 @@ layout: base
 title: Home
 ---
 <h1>Welcome</h1>
-<p>I'm Andrew Lanin (rus. Андрей Ланин), software engineer from Russia, interested in development tools, machine languages, programmers' productivity techniques, entrepreneurship, learning meaningful stuff and teaching others.</p>
+<p>I'm Andrew Lanin (Russian: Андрей Ланин), software engineer from Russia, interested in development tools, machine languages, productivity techniques, entrepreneurship, learning, teaching and many other things.</p>
 
 <h2>Bookshelf</h2>
+<p>Quick notes on books I've read lately.</p>
+
 {% for post in site.categories["bookshelf"] %}
 <div class="shelf">
   <a href="{{ post.url }}"><img src="{{post.cover}}" width="60" /></a>

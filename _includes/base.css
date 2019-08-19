@@ -3,7 +3,6 @@ body {
   padding: 10px;
   max-width: 720px;
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 1em;
   line-height: 150%;
   color: #000;
 }
@@ -15,6 +14,20 @@ nav {
 }
 
 nav a {
+  margin-right: 10px;
+}
+
+.shelf {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.shelf > a {
+  line-height: 0;
+}
+
+.shelf > * {
   margin-right: 10px;
 }
 

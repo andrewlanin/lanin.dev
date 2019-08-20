@@ -15,13 +15,11 @@ nav {
 
 nav a,
 nav span {
-  margin-left: 10px;
+  margin-right: 10px;
 }
 
 footer {
   margin-top: 50px;
-  padding-top: 10px;
-  line-height: 5px;
 }
 
 .shelf {

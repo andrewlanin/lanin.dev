@@ -13,8 +13,8 @@ nav {
   flex-wrap: wrap;
 }
 
-nav a {
-  margin-right: 10px;
+nav a, nav span {
+  margin-left: 10px;
 }
 
 .shelf {

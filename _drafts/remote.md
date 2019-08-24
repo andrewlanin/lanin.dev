@@ -1,12 +1,12 @@
 ---
 layout: post
 categories: [bookshelf]
-title: "Remote — J. Fried"
-cover: "/assets/remote/cover.jpg"
+title: Remote — J. Fried, DHH
+cover: /assets/remote/cover.jpg
 ---
 # {{ page.title }}
 
-![Book cover](/assets/remote/cover_photo.jpg)
+<img class="floatcover" src="{{ page.cover }}" alt="Book cover" />
 
 ## Quotes
 

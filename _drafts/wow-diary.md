@@ -1,8 +1,8 @@
 ---
 layout: post
 categories: [bookshelf]
-title: "The WoW Diary — J. Staats"
-cover: "/assets/wow-diary/cover.jpg"
+title: The WoW Diary — J. Staats
+cover: /assets/wow-diary/cover.jpg
 ---
 # {{ page.title }}
 

@@ -1,12 +1,12 @@
 ---
 layout: post
 categories: [bookshelf]
-title: "Rework — J. Fried"
-cover: "/assets/rework/cover.jpg"
+title: Rework — J. Fried, DHH
+cover: /assets/rework/cover.jpg
 ---
 # {{ page.title }}
 
-![Book cover](/assets/rework/cover_photo.jpg)
+<img class="floatcover" src="{{ page.cover }}" alt="Book cover" />
 
 ## Quotes
 

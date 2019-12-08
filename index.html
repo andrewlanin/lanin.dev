@@ -1,19 +1,32 @@
 ---
-layout: base
-title: Home
 ---
-<h1>Welcome</h1>
-<p>I'm Andrew Lanin (Russian: Андрей Ланин), software engineer from Russia, interested in development tools, machine languages, productivity techniques, entrepreneurship, learning, teaching and many other things.</p>
-
-<h2>Bookshelf</h2>
-<p>Quick notes on books I've read lately.</p>
-
-{% for post in site.categories["bookshelf"] %}
-<div class="shelf">
-  <a href="{{ post.url }}"><img src="{{post.cover}}" width="60" /></a>
-  <div>
-    <div>{{ post.date | date: '%Y-%m-%d' }}</div>
-    <div><a href="{{ post.url }}">{{ post.title }}</a></div>
-  </div>
-</div>
-{% endfor %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Andrew Lanin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type="text/css">
+     body {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       height: 90vh;
+       margin: 0 auto;
+       padding: 10px;
+       max-width: 720px;
+       font-family: Georgia, "Times New Roman", Times, serif;
+       line-height: 150%;
+       color: #000;
+     }
+    </style>
+  </head>
+  <body>
+    <div>Andrew Lanin | Андрей Ланин</div>
+    <div><a href="mailto:andrew@lanin.dev">andrew@lanin.dev</a></div>
+    <div>Software developer</div>
+    <div>Working on <i>unannounced project</i></div>
+    <div>ex-Yandex</div>
+    <div>ex-TradingView</div>
+    <div>ex-eSignal</div>
+  </body>
+</html>

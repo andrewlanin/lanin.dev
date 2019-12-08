@@ -1,10 +1,1 @@
 markdown: kramdown
-
-plugins:
-  - jekyll-feed
-
-# We need those values for nice atom feed
-title: Andrew Lanin's blog
-description: Thoughts about programming languages, devtools and some other things
-url: https://lanin.dev
-author: Andrew Lanin

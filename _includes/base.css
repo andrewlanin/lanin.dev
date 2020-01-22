@@ -18,7 +18,7 @@ h1, h2, h3 {
 }
 
 h2, h3 {
-  border-top: 1px dashed lightgray;
+  border-top: 3px dotted lightgray;
   padding-top: 10px;
   margin-top: 40px;
   margin-bottom: 20px;
@@ -38,26 +38,13 @@ h3 {
   font-size: 1.5em;
 }
 
-nav {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
 nav a,
 nav span {
   margin-right: 10px;
 }
 
 footer {
-  border-top: 1px dashed lightgray;
+  border-top: 3px dotted lightgray;
   padding-top: 10px;
   margin-top: 50px;
-}
-
-blockquote {
-  margin-left: 0;
-  margin-right: 0;
-  padding-left: 20px;
-  border-left: 3px solid gray;
 }

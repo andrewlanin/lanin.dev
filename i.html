@@ -2,10 +2,13 @@
 layout: base
 title: Home
 ---
-<h1>We need sharper tools</h1>
+
+<h1>Developers Need Sharper Tools</h1>
 <p>I'm Andrew Lanin (Russian: Андрей Ланин), software engineer from Russia, interested in development tools, machine languages, productivity techniques, entrepreneurship, learning, teaching and many other things.</p>
 
-<h2>Latest posts</h2>
+<h2>Latest Posts</h2>
+<ul>
 {% for post in site.posts limit:5 %}
-<p>{{ post.date | date: '%Y-%m-%d' }} <a href="{{ post.url }}">{{ post.title }}</a></p>
+<li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: '%B %d, %Y' }})</li>
 {% endfor %}
+</ul>

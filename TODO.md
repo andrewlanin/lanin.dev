@@ -9,4 +9,3 @@
 - Test Commento service.
 - Translate CV to english.
 - Setup RSS feed.
-- Write short paragraph about myself on home page.

@@ -1,6 +1,10 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 3.8.5"
+gem 'bigdecimal', '~> 2.0'
+gem 'etc', '~> 1.1'
+gem "jekyll", "~> 4.1"
+gem 'json', '~> 1.8', '>= 1.8.3'
+gem 'webrick', '~> 1.6', '>= 1.6.1'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]

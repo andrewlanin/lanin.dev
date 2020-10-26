@@ -1,5 +1,6 @@
 # Target directory for jekyll
 _site
+.jekyll-cache
 
 # macOS crap
 .DS_Store
